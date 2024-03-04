@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="label_nom">Name:</string>
+    <string name="label_prenom">First Name:</string>
+    <string name="label_age">Age:</string>
+    <string name="label_competences">Field of Expertise:</string>
+    <string name="label_telephone">Phone Number:</string>
+    <string name="hint_nom">Enter your name</string>
+    <string name="hint_prenom">Enter your first name</string>
+    <string name="hint_age">Enter your age</string>
+    <string name="hint_competences">Enter your field of expertise</string>
+    <string name="hint_telephone">Enter your phone number</string>
+    <string name="btn_valider">Submit</string>
+    <string name="btnRetour">Back</string>
+    <string name="label_numero">Phone Number: %s</string>
+    <string name="btn_appeler">Call</string>
+</resources>

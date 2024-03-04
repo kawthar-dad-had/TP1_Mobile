@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TP1_ProgrammationMobile1</string>
+    <string name="label_nom">Nom:</string>
+    <string name="label_prenom">Prénom:</string>
+    <string name="label_age">Âge:</string>
+    <string name="label_competences">Domaine de compétences:</string>
+    <string name="label_telephone">Numéro de téléphone:</string>
+    <string name="hint_nom">Entrez votre nom</string>
+    <string name="hint_prenom">Entrez votre prénom</string>
+    <string name="hint_age">Entrez votre âge</string>
+    <string name="hint_competences">Entrez votre domaine de compétences</string>
+    <string name="hint_telephone">Entrez votre numéro de téléphone</string>
+    <string name="btn_valider">Valider</string>
+    <string name="btnRetour">Retour</string>
+    <string name="label_numero">Numéro de téléphone: %s</string>
+    <string name="btn_appeler">Appeler</string>
+</resources>

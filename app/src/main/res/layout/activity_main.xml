@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/labelNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_nom"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelNom"
+        android:layout_marginTop="5dp"
+        android:hint="@string/hint_nom"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/labelPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_prenom"
+        android:layout_below="@id/editNom"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelPrenom"
+        android:layout_marginTop="5dp"
+        android:hint="@string/hint_prenom"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/labelAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_age"
+        android:layout_below="@id/editPrenom"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelAge"
+        android:layout_marginTop="5dp"
+        android:hint="@string/hint_age"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/labelCompetences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_competences"
+        android:layout_below="@id/editAge"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editCompetences"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelCompetences"
+        android:layout_marginTop="5dp"
+        android:hint="@string/hint_competences"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/labelTelephone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_telephone"
+        android:layout_below="@id/editCompetences"
+        android:layout_marginTop="20dp"
+        android:textSize="18sp"
+        android:textColor="#000000" />
+
+    <EditText
+        android:id="@+id/editTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/labelTelephone"
+        android:layout_marginTop="5dp"
+        android:hint="@string/hint_telephone"
+        android:padding="8dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnValider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTelephone"
+        android:layout_marginTop="20dp"
+        android:text="@string/btn_valider"
+        android:textSize="18sp"
+        android:background="#2196F3"
+        android:textColor="#FFFFFF" />
+</RelativeLayout>
